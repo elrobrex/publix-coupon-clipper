@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Publix Coupon Clipper",
+  "version": "1.0",
+  "description": "Automatically clips Publix digital coupons.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.publix.com/savings/digital-coupons*"],
+      "js": ["content.js"]
+    }
+  ]
+}
